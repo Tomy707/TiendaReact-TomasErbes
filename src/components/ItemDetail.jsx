@@ -1,6 +1,6 @@
 import { Card } from 'react-bootstrap'
 import ItemCount from './ItemCount'
-import { useCart } from '../context/CartContext' 
+import { useCart } from '../context/cartContext' 
 
 function ItemDetail({ detail }) {
   const { addToCart } = useCart(); 

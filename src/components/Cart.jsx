@@ -1,5 +1,5 @@
 import { Button, ListGroup } from 'react-bootstrap'
-import { useCart } from '../context/CartContext'
+import { useCart } from '../context/cartContext'
 import CheckoutForm from './CheckoutForm'
 
 function Cart() {

@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { collection, addDoc } from 'firebase/firestore'
 import { db } from '../firebase/config'
 import { useNavigate } from 'react-router-dom'
-import { useCart } from '../context/CartContext'
+import { useCart } from '../context/cartContext'
 
 const MySwal = withReactContent(Swal)
 

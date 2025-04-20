@@ -11,11 +11,11 @@ export default function Item ( {item} ) {
 
         <Col lg={3}>
             <Card>
-                <Card.Img variant="top" src={item.thumbnail}/>
+                <Card.Img variant="top" src={item.imagen}/>
                 <Card.Body>
-                <Card.Title> {item.title} </Card.Title>
+                <Card.Title> {item.nombre} </Card.Title>
                 <Card.Text>
-                    {item.category}
+                    {item.categoria}
                 </Card.Text>
                 <Button variant="primary" onClick={()=> navigate(`/product/${item.id}`)}> Ver Mas</Button>
                 </Card.Body>
